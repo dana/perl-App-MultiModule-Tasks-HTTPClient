@@ -93,7 +93,7 @@ message_is(
           'http_is_client_error' => '',
           'http_code' => 200
     },
-    ['http_content','http_fresh_until']
+    ['http_content','http_fresh_until','.ipc_transit_meta']
 );
 sleep 5;
 
